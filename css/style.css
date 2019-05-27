@@ -15,8 +15,9 @@ p{
 	padding-right: : 10px;
     margin-bottom: 10px;
     color: grey;
-	    font-size: 15px;
+    font-size: 15px;
 }
+
 .container{
 	width: 1060px;
 	margin: 0 auto;
@@ -38,6 +39,7 @@ p{
   float: left;
   box-sizing: border-box;
   padding-bottom: 30px;
+  position: relative;
 }
 .menu ul {
  text-align: right;
@@ -46,6 +48,11 @@ p{
 .menu ul li{
 	display: inline-block;
 
+}
+.hand{
+     position: absolute;
+    left: 71%;
+    top: 22px;
 }
 .menu ul li a{}
 .nav{
@@ -64,6 +71,7 @@ p{
     text-decoration: none;
     font-size: 16px;
     color: black;
+     font-weight: 700;
 }
 .nav ul li a:hover{
     text-decoration: none;
@@ -175,6 +183,7 @@ margin-bottom: 30px;
 	text-decoration: none;
     font-size: 16px;
     color: black;
+    font-weight: 700;
 }
 .col-md-4 ul li a:hover{
     text-decoration: none;
